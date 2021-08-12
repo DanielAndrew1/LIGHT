@@ -1,0 +1,155 @@
+/* connected */
+
+* {
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+    box-shadow: inset;
+}
+
+body {
+    background: #333;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#container {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin: 50px;
+    background:#222;
+    border-radius: 30px;
+}
+
+.headingMain {
+    background: inherit;
+    text-decoration: underline;
+    cursor:wait;
+}
+
+#myForm {
+    background: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+
+
+#myForm input {
+    width: 50%;
+    align-self: center;
+    text-align: justify;
+    margin: 5px 5px 8px 5px;
+    border-radius: 30px;
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 900;
+    border: solid 3px black;
+    transition-duration: 500ms;
+}
+#myForm input:focus {
+    width: 60%;
+    align-self: center;
+    text-align: justify;
+    margin: 5px 5px 8px 5px;
+    border-radius: 30px;
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 900;
+    border: solid 3px black;
+    text-shadow: #111;
+}
+
+#myForm button {
+    width: 30%;
+    align-self: center;
+    margin: 5px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.headingTasks {
+    background-color: inherit;
+}
+
+#myTasks {
+    background: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow:column;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+
+
+}
+
+
+ul {
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 200px;
+    max-height: fit-content;
+}
+
+#addBtn {
+    background: #111;
+    color: lime;
+    border: solid black 1px;
+}
+
+#addBtn:hover {
+    background-color: lime;
+    color: #111;
+    border: lime 1px solid;
+}
+
+#addBtn:active {
+    background-color: red;
+    color: #111;
+    border: red 1px solid;
+}
+
+.deleteBtn {
+    background: #111;
+    color: white;
+    position: sticky;
+    left: 62%;
+    border-radius: 20px;
+    border: solid #222 1px;
+    padding: 6px 12px;
+
+} 
+.deleteBtn:hover {
+    background: #433;
+    color: white;
+    position: sticky;
+    left: 62%;
+    border-radius: 20px;
+    border: solid #433 1px;
+    padding: 6px 12px;
+}
+
+.task {
+    background: #333;
+    margin: 5px;
+    text-align: start;
+    border-radius: 20px;
+    padding: 15px;
+    ;
+}
+
+.task:hover {
+    background: #333;
+    margin: 5px;
+    text-align: start;
+    border-radius: 20px;
+    padding: 15px;
+}
